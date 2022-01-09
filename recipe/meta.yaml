@@ -1,6 +1,5 @@
 {% set name = "adorn" %}
-{% set version = "0.0.5" %}
-
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adorn-{{ version }}.tar.gz
-  sha256: cbb69aa824e11daa07be3e6d73907c96e309c63c4de852a3672bc351c92c2e07
+  sha256: 6ab2c820b2d2ce5c577a0a33b1152809f66c9e7883ee13051792ead3a752d888
 
 build:
   number: 0
